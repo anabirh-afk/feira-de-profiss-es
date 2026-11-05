@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feira de Profissões - Tecnologia da Informação (T.I.)</title>
+    <!-- Fontes externas e ícones -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho / Navegação -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-code"></i> T.I.<span>Pro</span>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#historia">História</a></li>
+                    <li><a href="#mercado">Mercado</a></li>
+                    <li><a href="#stand">Nosso Stand</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" class="theme-btn" aria-label="Alternar Tema">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Seção 1: Apresentação (Home) -->
+    <main>
+        <section id="home" class="hero-section">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <span class="badge">Feira de Profissões</span>
+                    <h1>Tecnologia da Informação</h1>
+                    <p class="slogan">"Construindo os algoritmos que moldam o amanhã."</p>
+                    <p class="description">
+                        A área de Tecnologia da Informação (T.I.) é o motor da transformação digital global. 
+                        Profissionais de T.I. desenvolvem softwares, gerenciam redes de computadores, protegem dados contra ciberataques 
+                        e criam inteligências artificiais para solucionar problemas complexos da sociedade.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#mercado" class="btn btn-primary">Ver Mercado & Salários</a>
+                        <a href="#stand" class="btn btn-secondary">Conhecer o Stand</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=800&q=80" alt="Profissional de TI trabalhando com código" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 2: Fatos Históricos -->
+        <section id="historia" class="section bg-alt">
+            <div class="container">
+                <h2 class="section-title">Fatos Históricos & Evolução</h2>
+                <p class="section-subtitle">Integração com a disciplina de História</p>
+                
+                <div class="timeline">
+                    <article class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="year">1843</span>
+                            <h3>O Primeiro Algoritmo</h3>
+                            <p>Ada Lovelace escreve o primeiro algoritmo da história para ser processado pela máquina analítica de Charles Babbage, tornando-se a primeira programadora do mundo.</p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="year">1946</span>
+                            <h3>Era dos Supercomputadores (ENIAC)</h3>
+                            <p>Criação do ENIAC, o primeiro computador digital eletromecânico de grande escala, ocupando salas inteiras para realizar cálculos científicos e militares.</p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="year">1969</span>
+                            <h3>Nascimento da ARPANET (Internet)</h3>
+                            <p>Surgimento da ARPANET, a rede de computadores que deu origem à Internet moderna, interligando centros de pesquisa universitários.</p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="year">1990 - Presente</span>
+                            <h3>Revolução Web, Mobile e I.A.</h3>
+                            <p>A expansão da World Wide Web, a popularização dos smartphones e a ascensão da Inteligência Artificial consolidaram a T.I. como essencial para todas as indústrias.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 3: Panorama Atual e Mercado -->
+        <section id="mercado" class="section">
+            <div class="container">
+                <h2 class="section-title">Panorama Atual & Mercado</h2>
+                <p class="section-subtitle">Integração com Matemática, Sociologia e Geografia</p>
+
+                <div class="cards-grid">
+                    <div class="card">
+                        <div class="card-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h3>Desenvolvimento</h3>
+                        <p>Criação de sistemas, aplicativos mobile e plataformas web. Altamente demandado em todo o mundo.</p>
+                        <span class="salary">Média: R$ 4.500 a R$ 14.000+</span>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                        <h3>Cibersegurança</h3>
+                        <p>Proteção de dados corporativos e defesa contra ataques cibernéticos em redes globais.</p>
+                        <span class="salary">Média: R$ 6.000 a R$ 16.000+</span>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon"><i class="fa-solid fa-brain"></i></div>
+                        <h3>Dados & I.A.</h3>
+                        <p>Análise de Big Data, aprendizado de máquina e automação inteligente para tomada de decisões.</p>
+                        <span class="salary">Média: R$ 7.000 a R$ 18.000+</span>
+                    </div>
+                </div>
+
+                <!-- Gráfico Estatístico -->
+                <div class="chart-box">
+                    <h3>Projeção de Crescimento da Área de T.I. até 2030</h3>
+                    <div class="bar-chart">
+                        <div class="bar-item">
+                            <span class="bar-label">Cibersegurança</span>
+                            <div class="bar-wrapper"><div class="bar" style="--width: 85%;">85%</div></div>
+                        </div>
+                        <div class="bar-item">
+                            <span class="bar-label">Inteligência Artificial</span>
+                            <div class="bar-wrapper"><div class="bar" style="--width: 92%;">92%</div></div>
+                        </div>
+                        <div class="bar-item">
+                            <span class="bar-label">Dev. Web & Mobile</span>
+                            <div class="bar-wrapper"><div class="bar" style="--width: 78%;">78%</div></div>
+                        </div>
+                        <div class="bar-item">
+                            <span class="bar-label">Cloud Computing</span>
+                            <div class="bar-wrapper"><div class="bar" style="--width: 88%;">88%</div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 4: O Nosso Stand -->
+        <section id="stand" class="section bg-alt">
+            <div class="container">
+                <h2 class="section-title">O Nosso Stand na Feira</h2>
+                <p class="section-subtitle">Registro oficial das atividades e materiais expostos</p>
+
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=600&q=80" alt="Maquete de Servidores do Stand" loading="lazy">
+                        <div class="gallery-info">
+                            <h4>Maquete Interativa</h4>
+                            <p>Exposição sobre infraestrutura de servidores e nuvem.</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80" alt="Apresentação ao público" loading="lazy">
+                        <div class="gallery-info">
+                            <h4>Interação com o Público</h4>
+                            <p>Demonstração prática de códigos e programas em tempo real.</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=600&q=80" alt="Cartazes e Materiais" loading="lazy">
+                        <div class="gallery-info">
+                            <h4>Cartazes Informativos</h4>
+                            <p>Explicativo sobre a evolução histórica das linguagens de programação.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relato-box">
+                    <h3><i class="fa-solid fa-comment-dots"></i> Relato da Experiência</h3>
+                    <p>
+                        Apresentar a profissão de Tecnologia da Informação na Feira de Profissões foi uma experiência enriquecedora. 
+                        Tivemos a oportunidade de explicar como os softwares funcionam no dia a dia, tiramos dúvidas sobre o mercado de trabalho 
+                        e mostramos que a programação é uma habilidade acessível e fundamental para o futuro.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé / Créditos -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="student-info">
+                <h3>Créditos do Projeto</h3>
+                <p><strong>Estudante:</strong> Ana Klara Boimer Birh</p>
+                <p><strong>Turma:</strong> 2G</p>
+                <p><strong>Disciplina:</strong> Programação</p>
+            </div>
+            <div class="project-links">
+                <h3>Links do Projeto</h3>
+                <a href="https://github.com" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Repositório GitHub</a>
+                <a href="#home"><i class="fa-solid fa-arrow-up"></i> Voltar ao Topo</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Feira de Profissões. Projeto Interdisciplinar Escolar.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
